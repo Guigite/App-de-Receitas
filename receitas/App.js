@@ -11,9 +11,10 @@ export default function App() {
 
     async function PegarDados() {
       await fetch ("http://localhost:8080/receitas")
-      .then((resp) => {return resp.json()})
+      .then((resp) => resp.json())
       .then((dados) => {
-        setData(dados); setLoading(false)
+        setData(dados); 
+        setLoading(false);
       })
       .catch((err) => console.log(err))
     }
