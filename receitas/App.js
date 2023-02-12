@@ -10,7 +10,7 @@ export default function App() {
   useEffect (() => {
 
     async function PegarDados() {
-      await fetch ("http://localhost:8080/receitas")
+      await fetch ("http://10.0.0.111:8080/receitas")
       .then((resp) => resp.json())
       .then((dados) => {
         setData(dados); 
