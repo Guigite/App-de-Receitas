@@ -1,7 +1,7 @@
 import React from "react";
 import { StatusBar } from 'expo-status-bar';
 import { useState, useEffect} from 'react';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, FlatList, TouchableOpacity, ActivityIndicator } from 'react-native';
 
 export default function Receitas({route, navigation}) {
   
@@ -25,7 +25,7 @@ export default function Receitas({route, navigation}) {
     if (loading){
      return (
         <View style={styles.container}>
-          <Text>Buscando dados...{route.params.tipo}</Text>
+          <ActivityIndicator size="large"/>
         </View>
     ); 
     }else{
