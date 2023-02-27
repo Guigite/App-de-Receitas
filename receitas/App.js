@@ -21,7 +21,7 @@ export default function App() {
             options={{title: 'RECEITAS', 
             headerTintColor: 'white', 
             headerStyle: {
-                backgroundColor: 'red',
+                backgroundColor: 'black',
                 height: 100, 
                 },
             headerTitleAlign: 'center',
@@ -31,7 +31,7 @@ export default function App() {
               options={{title: 'RECEITAS', 
               headerTintColor: 'white', 
               headerStyle: {
-                  backgroundColor: 'red',
+                  backgroundColor: 'black',
                   height: 100, 
                   },
               headerTitleAlign: 'center',
@@ -41,7 +41,7 @@ export default function App() {
               options={{title: 'RECEITAS', 
               headerTintColor: 'white', 
               headerStyle: {
-                  backgroundColor: 'red',
+                  backgroundColor: 'black',
                   height: 100, 
                   },
               headerTitleAlign: 'center',
