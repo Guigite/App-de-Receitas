@@ -61,6 +61,7 @@ export default function Receitas({route, navigation}) {
     },
     btn:{
       margin: 10,
+      flex: 1
   },
     botao:{
       borderColor: '#000',
